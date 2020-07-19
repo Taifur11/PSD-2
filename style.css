@@ -1,0 +1,272 @@
+/* Fonts Link */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+/* Fonts Link */
+
+/* Common Css */
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	padding:0px;
+}
+a{
+	text-decoration: none;
+}
+
+.container{
+	width:900px;
+	/* background-color: red; */
+	margin: 0 auto;
+}
+.container:before,
+.container:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.box50{
+	width:50%;
+	float: left;
+	padding-left:15px;
+	padding-right:15px;
+}
+.box50 p{
+	font-family: 'PT Serif', serif;
+	font-size: 24px;
+	color: #111111;
+	font-weight: 400;
+}
+.box33{
+	width:33.33%;
+	float: left;
+	padding-left:15px;
+	padding-right:15px;
+}
+.box33 p{
+	font-family: 'PT Serif', serif;
+	font-size: 24px;
+	color: #111111;
+	font-weight: 400;
+}
+.mrtop{
+	margin-top: 34px;
+}
+.mrbtm{
+	margin-bottom: 52px;
+}
+.trip{
+	background-color: #D90445;
+}
+.tech{
+	background-color: #000000;
+}
+.nature{
+	background-color: #58B600;
+}
+.fashion{
+	background-color: #8200B2;
+}
+.people{
+	background-color: #1A54E7;
+}
+
+.img_btn{
+	position:relative;
+}
+
+.img_btn .btn_common{
+	position:absolute;
+	left:0;
+	bottom: 20px;
+	/* top:calc(100% - 90px); */
+}
+
+.img_btn .btn_common a{
+	display:inline-block;
+	padding:13px 20px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+}
+
+/* Common Css */
+
+/* ******************************Header Area ***************************/
+.header{
+	/* background-color: pink; */
+}
+/* ******************************Header Area Logo ***************************/
+.header .container .logo{
+	display: inline-block;
+	background-color: #1A54E7;
+	padding-right: 36px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	position: relative;
+	
+}
+.header .container .logo:before{
+	content:"";
+	position:absolute;
+	background-color: #1A54E7;
+	/* background-color: red; */
+	top: 0px;
+	bottom: 0;
+	left: -5000px;
+	right: 100%;
+}
+.header .container .logo a{
+	color: #ffffff;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 24px;
+}
+/* ******************************Header Area Menu ***************************/
+.header .menu{
+	float: right;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	/* background-color: green; */
+}
+
+.header .menu ul{
+	margin: 0;padding: 0;
+}
+.header .menu ul li{
+	list-style: none;
+	float: left;
+}
+.header .menu ul li a{
+	color:#1A54E7;
+	display: inline-block;
+	padding:28px 18px;
+}
+.header .menu ul li.active a{
+	position:relative;
+}
+.header .menu ul li.active a:before{
+	content: "";
+	
+	position:absolute;
+	background-color:#1A54E7;
+	height:3px;
+	bottom: 0;
+	left:0;
+	right:0;
+	/* top:calc(100% - 3px); */
+}
+
+/* ******************************Header Area ***************************/
+
+/* ******************************Banner Area ***************************/
+.banner{
+	text-align: center;
+	background-image: url("images/banner.jpg");
+	/* background-size: cover; */
+	background-size: 100% 100%;
+}
+.banner_inner{
+	padding-top: 215px;
+	padding-bottom: 215px;
+	position:relative;
+}
+.banner_inner h1{
+	font-family: 'PT Serif', serif;
+	font-size: 48px;
+	color: white;
+}
+
+.btn{
+	position:absolute;
+	left:0;
+	/* bottom: 40px; */
+	 top:calc(100% - 90px); 
+}
+
+.btn a{
+	display:inline-block;
+	padding:13px 20px;
+	background-color:#1A54E7;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+}
+
+.author_date{
+	position:absolute;
+	right:0;
+	bottom: 52px;
+}
+
+.author_date a{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	display: inline-block;
+	padding-top: 2px;
+	padding-bottom: 2px;
+
+}
+
+.author_date a:first-child{
+	color:#b0b0b0;
+	border-right:2px solid #b0b0b0;
+	padding-right: 6px;
+}
+.author_date a:last-child{
+	color:#1a54e7;
+	text-decoration: underline;
+	padding-left: 6px;
+}
+
+/* ******************************Banner Area ***************************/
+/* ******************************Feature Area ***************************/
+.feature{
+	background-color: #F6F6F6;
+}
+.feature img{
+	display: block;
+	width:100%;
+	height:auto;
+}
+/* ******************************Feature Area ***************************/
+/* ******************************Main Content Area ***************************/
+.main_content img{
+	display: block;
+	width:100%;
+	height:auto;
+}
+
+.content_banner{
+
+}
+
+/* ******************************Feature Area ***************************/
+
+
+
+.author_date_common a{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	display: inline-block;
+	padding-top: 2px;
+	padding-bottom: 2px;
+
+}
+
+.author_date_common a:first-child{
+	color:black;
+	border-right:2px solid #b0b0b0;
+	padding-right: 6px;
+}
+.author_date_common a:last-child{
+	color:#1a54e7;
+	text-decoration: underline;
+	padding-left: 6px;
+}
+
+
+
+/* ******************************Main Content Area ***************************/
