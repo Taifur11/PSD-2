@@ -156,6 +156,16 @@ a{
 	color:#1A54E7;
 	display: inline-block;
 	padding:28px 18px;
+	position: relative;
+}
+.header .menu ul li a:hover:before{
+	content: "";
+	position:absolute;
+	background-color:#1A54E7;
+	height:3px;
+	bottom: 0;
+	left:0;
+	right:0;
 }
 .header .menu ul li.active a{
 	position:relative;
@@ -375,7 +385,7 @@ a{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left:20px;
-	padding-right:20px;
+	padding-right:160px;
 	outline: 0;
 	border:0;
 	background-color: #2C6CFF;
